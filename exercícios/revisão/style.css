@@ -1,0 +1,50 @@
+@charset "UTF - 8";
+body{
+    background-color: rgb(173, 175, 173);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+h1{
+    background-color: rgb(75, 77, 75) ;
+    text-align: center;
+}
+
+a{
+    color: lightblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited{
+    color: darkblue;
+}
+
+a:hover{
+    color: black;
+    text-decoration: underline;
+}
+
+a:active{
+    color: red;
+}
+
+.especial{
+    background-color: rgb(221, 75, 75);
+}
+
+.especial::before{
+    content: '⇒';
+    color: darkred;
+}
+
+.especial::after{
+    content: '⇐';
+    text-decoration: none;
+    font-weight: normal;
+    color: darkred;
+}
+
+p{
+    text-align: justify;
+}
